@@ -1,0 +1,17 @@
+.info-3-persons {
+    
+}
+
+@media(max-width:835px){
+    .info-3-persons {
+        flex-direction: column;
+    }
+}
+
+.info-3-persons div {
+
+}
+
+.info-3-persons div img {
+
+}

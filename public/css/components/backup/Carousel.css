@@ -1,0 +1,41 @@
+
+      .carousel-conteiner {
+                              width: 100%;
+                          height: 20rem;
+                          height: 34rem;
+                          justify-content: space-evenly;
+                          align-items: center;
+                          flex-direction:column;
+                            }
+
+                            .carousel-title-conteiner {
+                              align-items:center;
+                              justify-content:center;
+                            }
+
+@media(max-width:764px){
+                            .carousel-title{ 
+                              font-size: 2em;      
+                              padding: 12px;    
+}  
+}
+.carousel-carousel {
+
+}
+.carousel-deslizar-icon {
+                              display:none;
+}
+@media(max-width:1158px){
+                              .carousel-deslizar-icon {
+                                                            display:flex;
+                              }        
+}
+.carousel-deslizar-icon img {
+animation: deslizaranimation 3s infinite ease-in-out;
+}
+
+
+@keyframes deslizaranimation {
+                              0%, 100% {transform:translate(-40px,0)}
+                              50% {transform:translate(40px,0)};
+}

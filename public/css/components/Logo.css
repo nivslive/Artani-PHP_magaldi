@@ -1,0 +1,9 @@
+.logo-container {
+    background: #ebe6da;
+}
+
+
+.logo-container img {
+    width: 100%;
+    max-width: 49rem;
+}

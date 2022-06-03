@@ -1,0 +1,64 @@
+.header-container {
+background: url('../../img/banner.png');
+background-size:cover;
+border-bottom: 20px solid var(--color-1);
+height: auto;
+padding: 7rem 0;
+}
+
+@media(max-width:960px){
+    .header-container {
+        flex-direction: column;
+    }
+}
+
+.header-container-info {
+width: 50%;
+padding:40px;
+}
+
+@media(max-width:960px){
+    .header-container-info{
+        width: 100%;
+    }
+}
+
+
+.header-container-info-logo {
+
+}
+
+.header-container-info-desc {
+    padding: 0px 30px;
+}
+
+.header-container-info-desc h1 {
+    font-size: 2rem;
+}
+
+.header-container-form {
+
+}
+
+.header-container-form form {
+    box-shadow: 10px 13px 19px black;
+    padding: 44px;
+    background: var(--color-1);
+    border-radius: 35px;
+    max-width: 26rem;
+}
+.header-container-form form input, 
+.header-container-form form select {
+    border-radius: 35px;
+    margin: 11px;
+    border: 0;
+    width: 100%;    
+    padding: 9px;
+
+}
+
+.header-container-form form input[type="submit"] {
+    border-radius: 35px;
+    margin-bottom: 17px;
+    width: 50%;
+}

@@ -1,0 +1,18 @@
+.plantas-container {
+    background: var(--color-3);
+}
+
+.plantas-container h1 {
+    font-size: 2rem;
+}
+
+
+.plantas-carousel-container {
+    width: 100%;
+    padding: 26rem 0;
+    height: 20rem;
+    height: 34rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}

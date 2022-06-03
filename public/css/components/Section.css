@@ -1,0 +1,13 @@
+.section-upper-container {
+    line-height: 41px;
+    font-size: 1.5rem;
+    padding:15px;
+}
+
+.section-upper-container h1 {
+    font-size:1.5em;
+}
+
+.section-text-desc {
+    width:80%;
+}
