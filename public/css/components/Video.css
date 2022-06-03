@@ -68,6 +68,10 @@ height: 24rem;
 }
 
 
+.header-section_video video {
+    border-radius:20px;
+}
+
 @media(max-width:638px){
 
 .header-section_video {
@@ -124,6 +128,8 @@ border:0;
 background-color: var(--color-3);
 clip-path: polygon(0% 0%, 0% 100%, 36% 100%, 36% 0, 65% 0, 66% 100%, 100% 100%, 100% 0%);
 cursor:pointer;
+position:absolute;
+transform: translate(0, 142px);
 
 }
 

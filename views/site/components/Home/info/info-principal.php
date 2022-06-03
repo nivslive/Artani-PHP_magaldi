@@ -1,6 +1,6 @@
 
 <div class="info-principal  collumn p-1 pt-2 pb-2 radius-2 default-bg-color-3">
-                <h1 class="text-center bold">FICHA TÉCNICA:</h1>
+                <h1 class="text-center bold text-center">FICHA TÉCNICA:</h1>
                 <div class="info-principal-item row ">
 
 

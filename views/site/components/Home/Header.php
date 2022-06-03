@@ -40,7 +40,7 @@ Conheça o Moema Signature by You, belísissimo projeto de Alto Padrão com vist
 
 
 <?php Component::render('Form', 'home/layout', false, false, ['desc' => 
-'Preencha o formulário e a Consultora Magaldi entrará em contato com você.']);?>
+'Preencha o formulário e a Consultora Magaldi entrará em contato com você.', 'form_style' => '']);?>
 </section>
 
 </section>

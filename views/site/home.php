@@ -5,7 +5,7 @@
      Component::render('Header', 'Home', true, true);
      $logo1 = 'logo-moema.png';
      Component::render('Logo', 'Home', true, false, ['logo' => $logo1, 'logostyle' => "style='background-color:#ede8e2'"]);
-     Component::render('Info', 'Home', true); 
+     Component::render('Info', 'Home', true, true); 
      Component::render('Section', 'Home', true);
      $logo2 = 'logo-jau.png';
      Component::render('Logo', 'Home', true, false, ['logo' => $logo2, 'logostyle' => "style='background-color:#d4c5af'"]); 

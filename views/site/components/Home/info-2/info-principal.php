@@ -3,7 +3,7 @@
 
 
 <div class="info-principal center collumn p-2 radius-2 default-bg-color-3">
-<h1 class="bold">FICHA TÉCNICA:</h1>
+<h1 class="bold  text-center">FICHA TÉCNICA:</h1>
     <div class="info-principal-item row center p-1 upper">
 
 

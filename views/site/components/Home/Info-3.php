@@ -29,8 +29,7 @@
         <h1 class="text-center pb-1 bold">PREENCHA ESSE FORMULÁRIO E A CONSULTORA<br>
         MAGALDI ENTRARÁ EM CONTATO COM VOCÊ!</h1>
         <section class="header-container-form collumn center text-center">
-<?php Component::render('Form', 'home/layout', false, false, ['desc' => '',
-'style' => 'font-size: 21px;']);?>
+<?php Component::render('Form', 'home/layout', false, false, ['desc'=> '', 'form_style' =>  "style='font-size: 21px;'" ]);?>
     </section>
 
 </section>

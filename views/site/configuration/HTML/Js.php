@@ -4,6 +4,7 @@
 <script src="public/js/owlcarousel/owl.carousel.js"></script>
 <script src="public/js/owlcarousel/owl.carousel.min.js"></script>
 <script src="public/js/components/Plantas.js"></script>
+<script src="public/js/components/Video.js"></script>
 <script>
 
 
