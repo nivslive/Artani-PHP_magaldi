@@ -19,7 +19,14 @@
            
                 $video1 = '';
                 Component::render('info-description', 'home/info-2');
-                Component::render('Video', 'Home', true, ['video' => $video1]);  ?>
+                
+                
+                extract(['video' => $video1, 'videoclass' => '-2']);
+                var_dump($video, $videoclass);
+                Component::render('Video', 'Home', true);                  
+
+         
+         ?>
             <section class="info  pt-3 row">
 
         <?php 
