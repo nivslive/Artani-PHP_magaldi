@@ -43,13 +43,8 @@ class Web
             $empreendimento = $data['empreendimento'];
             $metragem = $data['metragem'];
             $contato = $data['contato'];
-            $message = "Olá Magaldi, tudo bem? Meu nome é $name e gostaria de mais informações referente à:
-                        Qual tipo de empreendimento: $empreendimento 
-                        Metragem: $metragem
-                        
-                        Meu telefone é: $telefone
-                        Meu Email é: $email
-                        A melhor forma de me contatar é via $contato";
+            $message = "Olá Magaldi, tudo bem? Meu nome é $name e gostaria de mais informações referente ao empreendimento $empreendimento e a metragem de $metragem 
+                        //// Meu telefone é: $telefone,  Meu Email é: $email, e a melhor forma de me contatar é via $contato";
 
                    
 

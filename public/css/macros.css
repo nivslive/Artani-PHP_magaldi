@@ -272,6 +272,31 @@
   .w-auto {
     width: auto !important;
   }
+
+
+  @media(max-width:800px) {
+      
+
+.m-w-25 {
+    width: 25% !important;
+  }
+  
+  .m-w-50 {
+    width: 50% !important;
+  }
+  
+  .m-w-75 {
+    width: 75% !important;
+  }
+  
+  .m-w-100 {
+    width: 100% !important;
+  }
+  
+  .m-w-auto {
+    width: auto !important;
+  }
+}
   
   .h-25 {
     height: 25% !important;
@@ -292,3 +317,42 @@
   .m-auto {
       margin: auto;
   }
+
+  .f-size-25 {
+      font-size: 1rem;
+  }
+
+  .f-size-50 {
+    font-size: 1.5rem;
+}
+
+.f-size-75 {
+    font-size: 1.5rem;
+}
+
+.f-size-100 {
+    font-size: 1.5rem;
+}
+
+@media(max-width:800px) { 
+
+
+    .m-f-size-25 {
+        font-size: 1rem !important;
+    }
+  
+    .m-f-size-50 {
+      font-size: 1.5rem  !important;
+  }
+  
+  .m-f-size-75 {
+      font-size: 2rem  !important;
+  }
+  
+  .m-f-size-100 {
+      font-size: 2.5rem  !important;
+  }
+  
+
+
+}

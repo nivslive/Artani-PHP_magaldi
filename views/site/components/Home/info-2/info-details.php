@@ -1,7 +1,7 @@
 
 
         <div class="info-details default-bg-color-3 collumn center radius-2 ml-1">
-                <h1 class="text-center pt-2 bold">DIFERENCIAIS:</h1>
+                <h1 class="text-center pt-1 pb-1 bold">DIFERENCIAIS:</h1>
                 <div class="info-details-container text-center center pb-1 row">
 
 

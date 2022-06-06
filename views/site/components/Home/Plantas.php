@@ -33,4 +33,12 @@ $files1 = array_splice($files1, 2);
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: orange;
 }
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    flex-wrap: wrap; }
+
+
+    .owl-carousel .owl-item img {
+    max-width: 51rem;
+}
 </style>
