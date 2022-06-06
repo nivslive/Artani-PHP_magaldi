@@ -15,4 +15,11 @@
 
      
      Layout::config('Js');
+
+
+
+     ?>
+
+
+<?php
      //require __DIR__.'/configuration/HTML/Js.php';

@@ -4,10 +4,16 @@
 <?php      
            
 
-    $carouselFolder4 = 'public/img/carousel-4';
-    $dataCarousel4 = [  "$carouselFolder4/1.png",
-                        "$carouselFolder4/2.png",
-                        "$carouselFolder4/3.png",];
+    
+           $carousel_folder4 = 'carousel-4';
+           $dir4   = 'public/img/'.$carousel_folder4;
+           $carousel_files4 = scandir($dir4);
+           $carousel_files4 = array_splice($carousel_files4, 2);
+           $dataCarousel4 = [];
+           foreach($carousel_files4 as $f4):
+                   array_push($dataCarousel4, "$dir4/$f4");         
+           endforeach;
+      
 
     Component::render('Carousel', 'Home', false, false, 
         [   'data' => $dataCarousel4, 

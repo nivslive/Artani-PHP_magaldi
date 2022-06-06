@@ -76,6 +76,11 @@
     font-weight: inherit;
 }
 
+
+.pointer {
+    cursor: pointer;
+}
+
 .upper {
     text-transform: uppercase;
 }

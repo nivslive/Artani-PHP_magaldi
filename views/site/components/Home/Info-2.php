@@ -5,13 +5,17 @@
                 Component::render('info-head', 'home/info-2');
                 Component::render('info-subhead', 'home/info-2'); 
 
-                $carouselFolder1 = 'public/img/carousel-3';
-
-                $dataCarousel1 = [  "$carouselFolder1/1.png",
-                                    "$carouselFolder1/2.png",
-                                    "$carouselFolder1/3.png",];
+        
+                $carousel_folder3 = 'carousel-3';
+                $dir3   = 'public/img/'.$carousel_folder3;
+                $carousel_files3 = scandir($dir3);
+                $carousel_files3 = array_splice($carousel_files3, 2);
+                $dataCarousel3 = [];
+                foreach($carousel_files3 as $f3):
+                        array_push($dataCarousel3, "$dir3/$f3");         
+                endforeach;
            
-                Component::render('Carousel', 'Home', false, false, ['data' => $dataCarousel1, 
+                Component::render('Carousel', 'Home', false, false, ['data' => $dataCarousel3, 
                                                                      'item' => '-1',
                                                                      'style' => 'Carousel1.css',
                                                                      'script' => 'Carousel1.js',

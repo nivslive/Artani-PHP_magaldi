@@ -5,10 +5,17 @@
 <script src="public/js/owlcarousel/owl.carousel.min.js"></script>
 <script src="public/js/components/Plantas.js"></script>
 <script src="public/js/components/Video.js"></script>
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+-->
+
 <script>
-
-
-
+    /*
+swal({  position: 'top-end',
+  icon: 'success',
+  title: 'Your work has been saved',
+  showConfirmButton: false,
+ })*/
 const repeat = false;
 const noArrows = false;
 const noBullets = false;
@@ -238,3 +245,21 @@ slideInitial();
 
 
     </script>
+
+    <style>
+
+.swal-overlay--show-modal .swal-modal {
+    height: fit-content !important; }
+
+    .swal-overlay--show-modal {
+    align-items: center !important;
+}
+
+.swal-footer {
+    justify-content: center;
+}
+
+
+    </style>
+
+

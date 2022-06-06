@@ -68,6 +68,12 @@ height: 24rem;
 }
 
 
+@media(max-width: 700px){
+    .header-section_video {
+        width: 80%;
+    }
+}
+
 .header-section_video video {
     border-radius:20px;
     width: 100%;
@@ -76,7 +82,7 @@ height: 24rem;
 @media(max-width:638px){
 
 .header-section_video {
-height: 15rem;
+    height: 21rem;
 }
 }
 
@@ -106,19 +112,7 @@ justify-content: center;
     cursor:pointer;
 
 }
-@media(max-width: 512px){
-.header-section_video_play {
-width: 19px;
-height: 53px;
-}
-}
 
-@media(max-width: 444px){
-.header-section_video_play {
-width: 25px;
-height: 25px;
-}
-}
 
 .header-section_video_pause {
 margin-top: 10px;

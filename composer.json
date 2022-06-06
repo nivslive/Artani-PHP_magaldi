@@ -1,6 +1,5 @@
 {
     "autoload": {
-        "files": ["./views/site/configuration/Repository/Init.php"],
         "psr-4": {
             "Template\\": "src/"
         }
