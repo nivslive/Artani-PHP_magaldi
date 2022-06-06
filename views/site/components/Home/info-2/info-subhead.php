@@ -1,7 +1,7 @@
 
 <style> 
 .section-container-2 h1 {
-font-size: 2.8rem;line-height: 20px;
+font-size: 2.8rem;line-height: 39px;
 }
 
 

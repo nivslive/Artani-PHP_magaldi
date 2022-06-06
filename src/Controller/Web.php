@@ -36,7 +36,7 @@ class Web
 
     public function submit($data) {
             var_dump($data);
-             $phone = '55' . preg_replace('/[^\d]/i', '', '11974885114');
+             $phone = '55' . preg_replace('/[^\d]/i', '', '11988519002');
             $name = $data['name'];
             $telefone = $data['phone'];
             $email = $data['email'];
