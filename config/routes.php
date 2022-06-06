@@ -23,7 +23,7 @@ $router->namespace('src/Controller');
 // Rotas principais do site
 $router->group(null);
 $router->get('/', function () use ($web){$web->index();});
-
+$router->post('/submit', function ($data) use ($web){$web->submit($data);});
 
 // Rotas para Tratamento de Erros
 $router->group('/error');

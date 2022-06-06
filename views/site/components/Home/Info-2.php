@@ -17,13 +17,9 @@
                                                                      'script' => 'Carousel1.js',
                                                                   ]);
            
-                $video1 = '';
+
                 Component::render('info-description', 'home/info-2');
-                
-                
-                extract(['video' => $video1, 'videoclass' => '-2']);
-                var_dump($video, $videoclass);
-                Component::render('Video', 'Home', true);                  
+                Component::render('Video', 'home/info-2', true);                  
 
          
          ?>

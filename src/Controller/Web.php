@@ -32,5 +32,10 @@ class Web
         echo $this->view->render('home', []);
         
     }
+
+
+    public function submit($data) {
+            var_dump($data);
+    }
     
 }

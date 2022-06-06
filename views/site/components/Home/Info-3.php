@@ -39,3 +39,18 @@
               Component::render('Button', 'home/layout');?>
     </section>
 
+
+<script>
+
+let select1 = document.querySelector('.select-1');
+let select2 = document.querySelector('.select-2');
+select1.style.display = 'none';
+select2.style.display = 'none';
+function showInputs() {
+  select1.style.display = 'flex';
+select2.style.display = 'flex';
+}
+
+</script>
+
+

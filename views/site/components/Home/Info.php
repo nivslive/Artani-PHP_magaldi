@@ -11,9 +11,8 @@
                                       "$carouselFolder/externa-01.png",];
             
                 Component::render('Carousel', 'Home', true, false, ['data' => $dataCarousel, 'item' => '']);
-                $video1 = '';
                 Component::render('info-description', 'home/info');
-                Component::render('Video', 'Home', true, true, ['video' => $video1, 'video-class' => '']);  ?>
+                Component::render('Video', 'home/info');  ?>
 <section class="info  pt-3 evenly row">
 
 
