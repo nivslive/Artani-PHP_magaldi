@@ -2,8 +2,8 @@
 <section class="collumn">
 
 <?php      
-                Component::render('info-head', 'home/info');
-                Component::render('info-subhead', 'home/info'); 
+                Component::render('info-head', 'Home/info');
+                Component::render('info-subhead', 'Home/info'); 
                 $carousel_folder1 = 'carousel-1';
                 $dir1   = 'public/img/'.$carousel_folder1;
                 $carousel_files1 = scandir($dir1);
@@ -14,21 +14,21 @@
                 endforeach;
             
                 Component::render('Carousel', 'Home', true, false, ['data' => $dataCarousel, 'item' => '']);
-                Component::render('info-description', 'home/info');
-                Component::render('Video', 'home/info');  ?>
+                Component::render('info-description', 'Home/info');
+                Component::render('Video', 'Home/info');  ?>
 <section class="info  pt-3 evenly row">
 
 
         <?php 
 
-                Component::render('info-principal', 'home/info');
-                Component::render('info-details', 'home/info');?>
+                Component::render('info-principal', 'Home/info');
+                Component::render('info-details', 'Home/info');?>
 
 
   
         </section>
 
-        <?php Component::render('info-final', 'home/info');?>
+        <?php Component::render('info-final', 'Home/info');?>
 </section>
 
 

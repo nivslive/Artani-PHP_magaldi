@@ -35,7 +35,6 @@ class Web
 
 
     public function submit($data) {
-            var_dump($data);
              $phone = '55' . preg_replace('/[^\d]/i', '', '11988519002');
             $name = $data['name'];
             $telefone = $data['phone'];
@@ -45,10 +44,6 @@ class Web
             $contato = $data['contato'];
             $message = "Olá Magaldi, tudo bem? Meu nome é $name e gostaria de mais informações referente ao empreendimento $empreendimento e a metragem de $metragem 
                         //// Meu telefone é: $telefone,  Meu Email é: $email, e a melhor forma de me contatar é via $contato";
-
-                   
-
-
     
             // DO NOT EDIT BELOW
     

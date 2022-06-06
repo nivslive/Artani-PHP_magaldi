@@ -15,3 +15,10 @@
 .info-3-persons div img {
 
 }
+
+
+@media(max-width:835px) {
+    .info-3-persons div img {
+        padding-top: 46px;
+    }
+}

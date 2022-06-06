@@ -2,8 +2,8 @@
 <section class="collumn">
 
 <?php      
-                Component::render('info-head', 'home/info-2');
-                Component::render('info-subhead', 'home/info-2'); 
+                Component::render('info-head', 'Home/info-2');
+                Component::render('info-subhead', 'Home/info-2'); 
 
         
                 $carousel_folder3 = 'carousel-3';
@@ -22,22 +22,22 @@
                                                                   ]);
            
 
-                Component::render('info-description', 'home/info-2');
-                Component::render('Video', 'home/info-2', true);                  
+                Component::render('info-description', 'Home/info-2');
+                Component::render('Video', 'Home/info-2', true);                  
 
          
          ?>
             <section class="info  pt-3 row">
 
         <?php 
-                Component::render('info-principal', 'home/info-2');
-                Component::render('info-details', 'home/info-2');?>
+                Component::render('info-principal', 'Home/info-2');
+                Component::render('info-details', 'Home/info-2');?>
 
 
   
         </section>
 
-        <?php Component::render('info-final', 'home/info-2');?>
+        <?php Component::render('info-final', 'Home/info-2');?>
 </section>
 
 

@@ -18,7 +18,7 @@
 <select name="metragem"  required   <?=$form_style?> placeholder="Qual empreendimento de seu interesse?">
   <option>Qual a metragem desejada?</option>
   <option>Até 100 m2</option>
-  <option>de 100 a 150 m2</option>
+  <option>100 a 150 m2</option>
   <option>Acima de 150 m2</option>
 </select>
 

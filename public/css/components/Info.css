@@ -71,7 +71,7 @@ padding:20px;
 
 
 .info-details-item img {
-    max-width: 66px;
+    width: 58px;
 }
 
 
@@ -105,6 +105,7 @@ padding:0;
 }
 .section-container h1 {
     font-size:1.5rem;
+    width: 80%;
 }
 .section-upper-container {
     line-height: 41px;

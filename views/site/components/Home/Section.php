@@ -17,7 +17,7 @@ Component::render('Carousel', 'Home', false, false, [ 'data' => $dataCarousel2,
                                                       'script' => 'Carousel2.js',
                                                     ]);                                                      
 
-Component::render('Button', 'home/layout');
+Component::render('Button', 'Home/layout');
 
 ?>
 
@@ -27,7 +27,7 @@ Component::render('Button', 'home/layout');
 
     <h1 class="text-center w-75 m-w-100 f-size-50 m-f-size-25 bold">
     No coração dos Jardins com 3 Suítes ou 4
-Dorms. Studios+ com pé-direito 3,40m
+Dorms. <br> Studios+ com pé-direito 3,40m
     </h1>
 
     

@@ -85,7 +85,7 @@
     color: white;
     line-height: 19px;
         margin: auto;
-        width: 80%;
+        width: 92%;
   }
 }
 </style>

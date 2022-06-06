@@ -2,7 +2,7 @@
 <section class="section-container center text-center collumn">
 
 
-<h1 class="text-left bold">
+<h1 class="text-center bold">
         Sobre o Projeto:
 </h1>
 

@@ -32,14 +32,14 @@ Conheça o Moema Signature by You, belísissimo projeto de Alto Padrão com vist
 <section class="header-container-form collumn center text-center">
 <div class="header-conteiner-form-info collumn text-center bold ">
   <span class="center">A esquina mais desejada de Moema </span>
-  <span class="center">Avenida Sabiá x Rua Gaivota </span>
+  <span class="center pb-1">Avenida Sabiá x Rua Gaivota </span>
 </div>
 <div class="header-conteiner-form-subinfo text-center radius-3 black pl-2 pr-2 bold mb-1">
   30 unidades de 4 dorms, (3 suítes) de <br> 141,31m² com 2 vagas demarcadas  
 </div>
 
 
-<?php Component::render('Form', 'home/layout', false, false, ['desc' => 
+<?php Component::render('Form', 'Home/layout', false, false, ['desc' => 
 'Preencha o formulário e a Consultora Magaldi entrará em contato com você.', 'form_style' => '']);?>
 </section>
 
