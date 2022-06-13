@@ -58,6 +58,8 @@ width: 47rem;
 height: 28rem;
 }
 
+
+
 @media(max-width:1242px){
 
 .header-section_video2 {
@@ -91,13 +93,15 @@ height: 21rem;
 
 
 .header-section_video_frame2 {
-width: 90%;
-height: 80%;
-margin-top: 20px;
-align-items: center;
-justify-content: center;
+    width: 91%;
+    height: 85%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background: url(../../img/logo-jau.png);
+    background-position: center;
+    border-radius: 20px;
 }
-
 
 
 

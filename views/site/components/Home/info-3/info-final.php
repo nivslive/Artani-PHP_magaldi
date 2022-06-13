@@ -1,6 +1,6 @@
 <div class="info-textend center pb-3 w-75 collumn center m-auto text-center">
-        <h1 class="center bold pb-1">Fale com a Consultora Magaldi</h1>
-<h2>
+        <h1 class="center bold pb-1 m-f-size-50">Fale com a Consultora Magaldi</h1>
+<h2 class="m-f-size-25">
 Você contará com um atendimento personalizado e
  negociação flexível diretamente com a Construtora<br><br>
 A Consultora Magaldi, corretora exclusiva You,Inc, atua há 13 anos

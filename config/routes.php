@@ -6,9 +6,9 @@ require __DIR__ . '/config.php';
 use Template\Controller\Web;
 use CoffeeCode\Router\Router;
 
-
-
 $router = new Router(URL_BASE);
+
+
 
 
 

@@ -244,6 +244,20 @@ function goToIndexSlide(index) {
 slideInitial();
 
 
+
+function ClickMacro(clickSelector, limit) { 
+let click = document.querySelector(clickSelector).getElementsByTagName('div')[limit]
+click.click()
+}
+
+
+$(document).ready(function(){
+ClickMacro('.bullet-container', 2);
+ClickMacro('.bullet-container-2', 1);
+ClickMacro('.bullet-container-1', 2);
+//ClickMacro('.bullet-container-3', 1);
+ClickMacro('.bullet-container-4', 1);
+});
     </script>
 
     <style>
@@ -259,7 +273,9 @@ slideInitial();
     justify-content: center;
 }
 
-
+.swal-icon--error__line--right {
+    right: -4rem !important;
+}
     </style>
 
 

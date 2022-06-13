@@ -115,7 +115,9 @@
 .block {
   display: block;
 }
-
+.none {
+    display:none;
+}
 
 .black {
     background-color: black;

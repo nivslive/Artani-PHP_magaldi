@@ -43,6 +43,13 @@
   justify-content: center;
   display:none;
 }
+@media(max-width:547px){
+  .slider-container-2 .bullet-container-2 {
+    bottom: -12rem;
+  }
+}
+
+
 .slider-container-2 .bullet-container-2 .bullet-2 {
   margin-right: 14px;
   height: 20px;
@@ -87,6 +94,8 @@
   transform: scale(0);
   opacity: 0;
 }
+
+
 .slider-container-2 .slider-content-2 .slider-single-2 .slider-single-download {
   position: absolute;
   display: block;

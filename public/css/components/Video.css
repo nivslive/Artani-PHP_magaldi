@@ -61,7 +61,7 @@ height: 28rem;
 @media(max-width:1242px){
 
 .header-section_video {
-width: 60%;
+    width: 73%;
 height: 29rem;
 }
 }
@@ -90,11 +90,14 @@ height: 29rem;
 
 
 .header-section_video_frame {
-width: 90%;
-height: 80%;
+width: 91%;
+height: 85%;
 margin-top: 20px;
 align-items: center;
 justify-content: center;
+background: url(../../img/logo-moema.png);
+background-position: center;
+border-radius: 20px;
 }
 
 

@@ -12,6 +12,7 @@
      Component::render('Info-2', 'Home'); 
      Component::render('Info-3', 'Home', true); 
      Component::render('Footer', 'Home', true); 
+     Component::render('Float', 'Home', true);
 
      
      Layout::config('Js');

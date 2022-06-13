@@ -17,7 +17,7 @@
 </style>
 
 
-<footer class="between default-bg-color-1 between-end">
+<footer class=" default-bg-color-1 center">
 
     <div class="logo">
     <img src="public/img/logotipo.png">
@@ -26,7 +26,7 @@
 
 
 
-    <div class="redes center" style="    padding-bottom: 16px;
+    <div class="redes center none" style="    padding-bottom: 16px;
                                        width: 8rem;">
   <a>  <img class="pointer" src="public/img/Instagram.png"> </a>
   <a>  <img class="pointer" src="public/img/Facebook.png"> </a>

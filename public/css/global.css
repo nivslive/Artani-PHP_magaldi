@@ -1,6 +1,7 @@
 * {
                               display:flex;
                               box-sizing: border-box;
+        
     
                               }
 
@@ -9,7 +10,7 @@ body {
                               color:white;
                               display: block;
                               width:100%;
-
+                              overflow-x: hidden;
                               margin:0;
                               padding:0;
                        

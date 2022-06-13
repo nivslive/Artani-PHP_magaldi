@@ -43,6 +43,12 @@
   justify-content: center;
   display:none;
 }
+@media(max-width:547px){
+  .slider-container-4 .bullet-container-4 {
+    bottom: -12rem;
+  }
+}
+
 .slider-container-4 .bullet-container-4 .bullet-4 {
   margin-right: 14px;
   height: 20px;

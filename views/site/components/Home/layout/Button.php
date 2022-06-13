@@ -90,7 +90,7 @@
 }
 </style>
 <section class="center pt-1 pb-3">
-<a href="https://api.whatsapp.com/send?phone=5511988519002&text=Entre%20em%20contato%20com%20o%20Instituto%20Rosalina%20Sumie%20Onimaru">
+<a href="https://api.whatsapp.com/send?phone=55<?=USER_NUMBER?>&text=Entre%20em%20contato%20com%20um%20dos%20nossos%20consultores%20Magaldi">
 <button class="button-inscrevase text-center collumn pointer glow-on-hover"> <h2 class="bold">ESTAMOS ONLINE</h2> <br>
 <h3 class="bold">FALE COM A CONSULTORA MAGALDI</h3> </button></a>
 </section>

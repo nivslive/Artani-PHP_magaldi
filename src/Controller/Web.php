@@ -4,6 +4,7 @@ namespace Template\Controller;
 
 
 use League\Plates\Engine;
+use Template\Configuration\Config;
 
 class Web 
 
@@ -28,7 +29,6 @@ class Web
     public function index()
     
     {
-        
         echo $this->view->render('home', []);
         
     }
