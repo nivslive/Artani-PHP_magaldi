@@ -252,9 +252,9 @@ click.click()
 
 
 $(document).ready(function(){
-ClickMacro('.bullet-container', 2);
-ClickMacro('.bullet-container-2', 1);
-ClickMacro('.bullet-container-1', 2);
+ClickMacro('.bullet-container', 7);
+ClickMacro('.bullet-container-2', 7);
+ClickMacro('.bullet-container-1', 11);
 //ClickMacro('.bullet-container-3', 1);
 ClickMacro('.bullet-container-4', 1);
 });
