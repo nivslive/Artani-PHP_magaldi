@@ -45,6 +45,7 @@ class ComposerStaticInit4ad8f7c9bc3ee4e9da91e0c068273ccc
             'ProxyManager\\' => 13,
             'PhpDocReader\\' => 13,
             'PackageVersions\\' => 16,
+            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'O' => 
         array (
@@ -151,6 +152,10 @@ class ComposerStaticInit4ad8f7c9bc3ee4e9da91e0c068273ccc
         'PackageVersions\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/package-versions-deprecated/src/PackageVersions',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'Opis\\Closure\\' => 
         array (

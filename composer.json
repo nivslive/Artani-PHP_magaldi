@@ -11,6 +11,7 @@
         "league/plates": "3.*",
         "coffeecode/uploader": "1.0.*",
         "coffeecode/paginator": "^1.0",
-        "doctrine/migrations": "^3.4"
+        "doctrine/migrations": "^3.4",
+        "phpmailer/phpmailer": "^6.6"
     }
 }

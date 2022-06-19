@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'd51c7331bf9fcdd0ed59db6846f7d5640dfdc1b5',
+        'reference' => '0d487d3639ea856d0eefedada49e92785b8fbc48',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'd51c7331bf9fcdd0ed59db6846f7d5640dfdc1b5',
+            'reference' => '0d487d3639ea856d0eefedada49e92785b8fbc48',
             'dev_requirement' => false,
         ),
         'coffeecode/paginator' => array(
@@ -245,6 +245,15 @@
             'install_path' => __DIR__ . '/../php-di/phpdoc-reader',
             'aliases' => array(),
             'reference' => '66daff34cbd2627740ffec9469ffbac9f8c8185c',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.6.2',
+            'version' => '6.6.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => 'b52ed06864fdda81b82ec8bf564cf15d45ed4f95',
             'dev_requirement' => false,
         ),
         'psr/container' => array(

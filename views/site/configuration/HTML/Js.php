@@ -245,18 +245,21 @@ slideInitial();
 
 
 
-function ClickMacro(clickSelector, limit) { 
+function ClickMacro(clickSelector) { 
+let limit = document.querySelector(clickSelector).getElementsByTagName('div').length / 2
+limit = Math.round(limit) - 1
+//console.log(clickSelector, limit)
 let click = document.querySelector(clickSelector).getElementsByTagName('div')[limit]
 click.click()
 }
 
 
 $(document).ready(function(){
-ClickMacro('.bullet-container', 7);
-ClickMacro('.bullet-container-2', 7);
-ClickMacro('.bullet-container-1', 11);
+ClickMacro('.bullet-container');
+ClickMacro('.bullet-container-2');
+ClickMacro('.bullet-container-1');
 //ClickMacro('.bullet-container-3', 1);
-ClickMacro('.bullet-container-4', 1);
+ClickMacro('.bullet-container-4');
 });
     </script>
 

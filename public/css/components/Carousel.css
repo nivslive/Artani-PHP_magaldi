@@ -262,14 +262,15 @@
 }
 @media(max-width:891px){
   .slider-container .slider-left {
-    left: 27%;
-    top: 51%;
+    left: 12%;
+    top: 49%;
   }
 }
 @media(max-width:541px){
   .slider-container .slider-left {
-    top: 27.5%;
-    left: 23%;
+
+    left: 20%;
+    top: 28%;
 
   }
 }
@@ -302,7 +303,7 @@
 @media(max-width:541px){
   .slider-container .slider-right {
     top: 26.5%;
-    left: 58%;
+    left: 51%;
   }
 }
 
